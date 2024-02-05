@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+.nav-bar {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    width: 10rem;
+}
+
+.logo-div img {
+    height: 30px; /* Adjust the height as needed */
+    width: auto;
+}
+
+.infos-div {
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    justify-content: space-evenly;
+}
+
+.resume-div {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    width: 5.4rem;
+    justify-content: space-around;
+}
+
+.download-logo {
+    height: 15px;
+    width: auto;
+}
+
+.name-arrow-div {
+    margin-top: .5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 80vw;
+    height: 23vh;
+}
+
+.three-lines {
+    height: 7vh;
+}
+
+.sp-btn-div {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.see-portfolio {
+    background-color: #ff6347;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    border-radius: 92px;
+}
+
+.main-left {
+    padding: 20px;
+    width: 50%; 
+}
+
+.title {
+    margin-top: 20px; 
+}
+
+.main-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    /* margin: 0 0 10px 0; */
+}
+
+.main-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 30  px 0;
+    height: 20rem;
+    width: 20rem;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    width: 20rem;
+    border: 2px solid yellow;
+    border-radius: 50%;
+    /* margin-right: 0px; */
+}
