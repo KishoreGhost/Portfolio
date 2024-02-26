@@ -1,9 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    overflow-x: hidden;
-}
+
 
 .header {
     display: flex;
@@ -23,11 +18,12 @@
     display: flex;
     align-items: center;
     padding: 15px;
-    width: 10rem;
+    width: 8rem;
+    justify-content: space-evenly;
 }
 
 .logo-div img {
-    height: 30px; /* Adjust the height as needed */
+    height: 30px; 
     width: auto;
 }
 
@@ -95,7 +91,8 @@
     justify-content: space-around;
     align-items: center;
     padding: 7px;
-    /* margin: 0 0 10px 0; */
+    flex-wrap:wrap-reverse;
+    border-bottom: 2px solid black;
 }
 
 .main-right {
@@ -117,5 +114,29 @@
     width: 20rem;
     border: 2px solid yellow;
     border-radius: 50%;
-    /* margin-right: 0px; */
 }
+
+.fun{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+}
+
+.home,.About-me,.projects,.resume-div p{
+    cursor: pointer;
+}
+
+.home{
+    border-bottom: 2px solid transparent;
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+
+.home::before{
+    transition: width 0.3s ease;
+}
+
+.home:hover::before{
+    width: 100%;
+}
+
+
