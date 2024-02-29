@@ -1,18 +1,78 @@
-.about-me-div{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 2%;
-    /* border-bottom: 2px solid black; */
-    padding: 10%;
-    flex-wrap: wrap;
+.about-me-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-betwen;
+  margin: 20px;
+  padding: 5%;
+  flex-wrap: wrap;
 }
 
-.photo{
-    display: flex;
-    border: 2px solid yellow;
-    height: 20rem;
-    width: 20rem;
-    border-radius: 50%;
-    margin: 10px;
+.left-side {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-evenly;
+  float: left;
+}
+
+.right-side {
+  border: 2px solid black;
+  width: 40%;
+  height: 28.3rem;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.heading {
+  border: 2px solid black;
+  height: 3.5rem;
+  text-align: left;
+}
+
+.topics {
+  padding: 10px;
+  margin-top: 15px;
+  border: 2px solid red;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.skills {
+  /* height: 10px; */
+  width: 100%;
+  /* background-color: #ddd; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skills p{
+    font-size: 13px;
+}
+
+.skill{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 20px;
+}
+
+.percentage{
+    height: 100%;
+    width: 90%;
+    background-color: lightblue;
+}
+
+.photo {
+  display: flex;
+  border: 2px solid yellow;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  margin: 10px;
 }

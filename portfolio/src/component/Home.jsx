@@ -22,6 +22,7 @@ const Home = () => {
             <p className="home">Home</p>
             <p className="About-me">About me</p>
             <p className="projects">Projects</p>
+
             <div className="resume-div">
               <p>Resume</p>
               <img className="download-logo" src={downloadLogo} alt="" />
